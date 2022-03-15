@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  color: black;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #05298b;
+  height: 15vh;
+}
+nav .nav-list {
+  display: flex;
+  list-style: none;
+}
+
+nav .nav-list li {
+  letter-spacing: 3px;
+  margin-left: 32px;
+}
+
+nav .nav-list li > a {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  text-decoration-line: none;
+}
+
+nav > img {
+  width: 85px;
+  height: 85px;
+  padding: 20px;
+  border-radius: 50%;
+
+}
+.mobile-menu {
+  display: none;
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  
+  #logo {
+    display: none;
+  }
+}
+
+
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../img/manaus.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  min-height: 300px;
+  border-bottom: 3px solid #f5be1a;
+}
+
+header h1 {
+  color: white;
+  font-size: 40px;
+}
+
+header p {
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(255, 255, 255);
+  margin-bottom: 2em;
+  font-size: 28px;
+}
+
+#curiosidades {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-item-1 {
+  flex: 1;
+}
+
+.item {
+  margin: 5px;
+  min-height: 600px;
+  background: #05298b;
+  border: 3px solid #f54d1a;
+  text-align: center;
+  font-size: 1.5em;
+  border-radius: 15px;
+}
+
+.flex-item-1 p {
+  margin-top: 15px;
+  color: #f3f3ff;
+  text-align: justify;
+  font-size: 18px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.flex-item-1 h3 {
+  color: #f3f3ff;
+  margin-top: 10px;
+}
+
+.flex-item-1 img {
+  margin-top: 10px;
+  width: 310px;
+  height: 200px;
+}
+
+#video {
+  background-color:#f54d1a;
+  position: relative;
+  padding: 10px;
+  padding-bottom: 40%;
+}
+
+#video > iframe {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  top: 10%;
+  left: 10%;
+  border-radius: 5px;
+}
+
+#rodape {
+  width: 100%;
+  min-height: 130px;
+  margin-top: 50px;
+  border-bottom: 4px solid #f54d1a;
+  background-color: #05298b;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+#rodape a > img {
+  width: 60px;
+  height: 60px;
+  align-items: center;
+  align-content: center;
+  margin-top: 40px;
+  margin-left: 40px;
+  border-radius: 50%;
+}

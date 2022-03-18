@@ -1,0 +1,507 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Karla:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  background: #ffffff;
+}
+
+header {
+  background: #00669f;
+  height: 6.45rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  margin-left: 0.62rem;
+}
+
+.logo p {
+  color: #fff;
+  font-size: 1.87rem;
+  margin-left: 1.87rem;
+}
+
+.logo a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.discountBar {
+  background: #1cd1b0;
+  height: 1.45rem;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  padding-left: 1.68rem;
+}
+
+nav {
+  height: 2.5rem;
+  background: #001d2d;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+main {
+  display: flex;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.descArleq {
+  background-image: url('../img/bgarlequina.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.descBatman {
+  background-image: url('../img/bgbatman.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.descCard {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 546px;
+  height: 600px;
+  background: #F3F3F3;
+  border-radius: 45px;
+  margin-top: 25vh;
+  margin-bottom: 5vh;
+}
+
+.descImg {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  top: -60px;
+}
+
+.descImg img {
+  border-radius: 50%;
+}
+
+.likeBotao {
+  display: inline-block;
+  position: relative;
+  top: -145px;
+  left: 60px;
+  cursor: pointer;
+}
+
+.descCardTexto {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.descCardTexto h3 {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  margin-top: -20px;
+  margin-bottom: 40px;
+  color: #2C0187;
+}
+
+.descCardTexto p {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.backButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 150px;
+  background: #2C0187;
+  border-radius: 0px 0px 45px 45px;
+}
+
+.backButton a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+.armas {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 60px;
+}
+
+.addButton {
+  position: fixed;
+  left: 85vw;
+  top: 500px;
+}
+
+.addButtonMobile {
+  display: none;
+}
+
+form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+form p {
+  text-align: center;
+}
+
+h1 {
+  font-size: 4.5rem;
+  font-weight: 700;
+  font-family: Inter;
+  margin-bottom: 3.43rem;
+}
+
+input,
+select {
+  height: 3.75rem;
+  border: 1.53px solid #000;
+  padding-left: 1.68rem;
+  margin-bottom: 1.25rem;
+}
+
+input::placeholder {
+  color: #000;
+  font-family: Karla;
+  font-size: 1.25rem;
+}
+
+select {
+  color: #000;
+  font-family: Karla;
+  font-size: 1.25rem;
+}
+
+option {
+  color: #000;
+  font-family: Karla;
+  font-size: 1.25rem;
+}
+
+.registerButtons {
+  display: flex;
+  gap: 20px;
+}
+
+button {
+  background: #1cd1b0;
+  border-radius: 23.011px;
+  height: 53.79px;
+  border: none;
+  font-family: Karla;
+  font-weight: 700;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-top: 2.5rem;
+  margin-bottom: 1.25rem;
+}
+.registerButtons button {
+  width: 50%;
+}
+
+.clear {
+  background: #888888;
+  border-radius: 23.011px;
+  font-family: Karla;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+}
+
+.register {
+  background: #1cd1b0;
+  border-radius: 23.011px;
+  font-family: Karla;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000;
+}
+
+form a {
+  text-decoration: none;
+  color: #00669f;
+  font-weight: bold;
+}
+
+footer {
+  height: 3.81rem;
+  background: #00669f;
+  color: #fff9f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* CARDS STYLE */
+
+
+.cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 850px;
+  gap: 50px;
+  justify-content: center;
+}
+
+.card {
+  width: 340px;
+  background: #f3f3f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 100px;
+}
+
+.arlequina {
+  background-image: url('../img/headerCard02.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.batman {
+  background-image: url('../img/headerCard01.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.mulherMaravilha {
+  background-image: url('../img/headerCard03.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-top-left-radius: 3%;
+  border-top-right-radius: 3%;
+}
+
+.superman {
+  background-image: url('../img/headerCard04.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-top-left-radius: 3%;
+  border-top-right-radius: 3%;
+}
+
+.cardHeader img {
+  width: 138px;
+}
+
+.like__button {
+  display: inline-block;
+  position: relative;
+  top: 18px;
+  left: 24px;
+  cursor: pointer;
+}
+
+.cardContent {
+  margin-top: 110px;
+}
+
+.cardHeader {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cardHeader img {
+  border-radius: 50%;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.cardHeader span {
+  margin-top: 23px;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+}
+
+.cardDescription {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+}
+
+.cardDescription span {
+  width: 300px;
+  margin-top: 30px;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  min-height: 120px;
+}
+
+.cardButton {
+  margin: auto;
+  display: flex;
+  width: 145px;
+  height: 54px;
+  background: #00669f;
+  margin-top: 23px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+
+.cardButton span {
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #f3f3f3;
+}
+
+@media (max-width: 1070px) {
+  .addButton {
+    left: 92vw;
+  }
+
+  .addButton img {
+    width: 50px;
+  }
+}
+
+@media (max-width: 914px) {
+  .discountBar {
+    height: 38px;
+  }
+
+  header {
+    height: 120px;
+  }
+}
+
+@media (max-width: 860px) {
+  .cardsContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main {
+    flex-direction: column;
+  }
+  .addButton {
+    display: none;
+  }
+
+  .addButtonMobile {
+    display: block;
+    position: relative;
+    /* bottom: -500px; */
+    /* top: 0; */
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    width: 750px;
+  }
+}
+
+@media (max-width: 496px) {
+  .discountBar {
+    height: 55px;
+  }
+
+  header {
+    height: 135px;
+  }
+}
+
+.botoes2 {
+  display: flex;
+  justify-content: center;
+
+}
+ .botoes2 input {
+   border: none;
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   background-size: 200% auto;
+   color: #000;
+   border-radius: 10px;
+   font-size: 1rem;
+ }
+
+ .botoes2 input:hover {
+   background-position: right center;
+   color: #fff;
+   text-decoration: none;
+   cursor: pointer;
+ }
+ 
+ @media( max-width: 968px) {
+
+  html {
+    font-size: 10px;
+  }
+
+  .botoes2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+   
+ }
